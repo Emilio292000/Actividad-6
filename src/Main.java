@@ -44,7 +44,7 @@ public class Main {
                             throw new IllegalArgumentException("Operador no válido.");
                     }
 
-                    // Almacenar el resultado en el arreglo
+                    
                     resultados.add(resultado);
                     System.out.println("Resultado: " + resultado);
 
@@ -56,12 +56,12 @@ public class Main {
             }
         }
 
-        // Mostrar todos los resultados almacenados
+
         System.out.println("Resultados almacenados:");
         for (Double res : resultados) {
             System.out.println(res);
         }
-            /// hola
+
         scanner.close();
     }
 }

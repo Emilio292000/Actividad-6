@@ -44,7 +44,7 @@ public class Main {
                             throw new IllegalArgumentException("Operador no válido.");
                     }
 
-                    
+
                     resultados.add(resultado);
                     System.out.println("Resultado: " + resultado);
 
